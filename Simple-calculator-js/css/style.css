@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* FONTS Imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222831;
+    font-family: 'Roboto', sans-serif;
+}
+
+.calculator {
+    width: 300px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+    background: #F0E6E1;
+    box-shadow: 5px 8px 8px -2px rgba(0, 0, 0, 0.50);
+}
+
+.display {
+    width: 280px;
+    height: 80px;
+    border: none;
+    margin: 10px 10px 5px 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 2rem;
+    background: #D9CCC1;
+    color: #222831;
+    border-radius: 7px;
+}
+
+/* row styling */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* row style end */
+
+/* button styling */
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    background: #444;
+    color: #fff;
+    margin: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #222831;
+}
+
+
+
+button[value='C'] {
+    display: block;
+    width: 100%;
+    border-radius: 25px;
+}
+
+button[value='.']{
+    background: #DB423C;
+}
+/* operator styling*/
+
+.operator {
+    background: #222831;
+}
+
+/* operator styling end*/
+
+/* button styling end */
